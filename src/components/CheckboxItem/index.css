@@ -1,0 +1,19 @@
+.item-row {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  color: black;
+  /* background-color: aliceblue; */
+  /* height: fit-content;
+  margin: 0px;
+  padding: 0px; */
+}
+.heading-sub {
+  margin-right: 20px;
+}
+.heading-sub:checked + .label {
+  text-decoration: line-through;
+}
+.line {
+  width: 2px solid black 100%;
+}

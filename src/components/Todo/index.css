@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  /* height: 100vh; */
+}
+.todo-container {
+  background-color: white;
+  width: 70%;
+  /* height: 70%; */
+  box-shadow: 2px 3px 2px rgb(126, 114, 114);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.h12 {
+  text-align: center;
+  font-weight: bold;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-top: 2px solid grey;
+  border-bottom: 1px solid grey;
+}
+.bottom-part {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: lightgreen;
+  /* height: 10%; */
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+}
+.line {
+  width: 2px solid black 100%;
+}
+.icon {
+  margin-right: 10px;
+}
+.line-2 {
+  border-style: none solid none none;
+  padding: 20px;
+  right: 77%;
+  /* position: absolute; */
+}
+.icons-container {
+  background-color: transparent;
+  font-size: 30px;
+  display: flex;
+}
+.vl {
+  display: inline-block;
+  border-left: 1px solid grey;
+  margin: 0 10px;
+  height: 100%;
+}
+.con {
+  margin-left: 20px;
+}
+.heading {
+  margin-top: 10px;
+  /* background-color: red; */
+}
+.headings {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.sub-headings {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.item-row {
+  display: flex;
+}
+.mid-container {
+  /* background-color: red; */
+  /* height: 50%; */
+}
